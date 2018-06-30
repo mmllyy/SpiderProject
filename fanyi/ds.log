@@ -1,0 +1,8 @@
+2018-06-21 15:56:42 [twisted] CRITICAL: Unhandled error in Deferred:
+2018-06-21 15:56:42 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\crawler.py", line 81, in crawl
+    start_requests = iter(self.spider.start_requests())
+TypeError: 'NoneType' object is not iterable

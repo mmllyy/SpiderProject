@@ -1,0 +1,1176 @@
+2018-06-21 15:08:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1222.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1214.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1176.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1175.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1163.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1161.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1158.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1107_13.html> (referer: https://www.dushu.com/book/1107.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1107_12.html> (referer: https://www.dushu.com/book/1107.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1107_11.html> (referer: https://www.dushu.com/book/1107.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:08:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1094_13.html> (referer: https://www.dushu.com/book/1094.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1222.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1214.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1176.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1158.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1175.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1163.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1161.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1094_13.html> (referer: https://www.dushu.com/book/1094.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1085_13.html> (referer: https://www.dushu.com/book/1085.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1094_12.html> (referer: https://www.dushu.com/book/1094.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1085_12.html> (referer: https://www.dushu.com/book/1085.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1206_13.html> (referer: https://www.dushu.com/book/1206.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_7.html> (referer: https://www.dushu.com/book/1181.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_3.html> (referer: https://www.dushu.com/book/1181.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_23.html> (referer: https://www.dushu.com/book/1179_19.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_24.html> (referer: https://www.dushu.com/book/1179_19.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_22.html> (referer: https://www.dushu.com/book/1179_19.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_29.html> (referer: https://www.dushu.com/book/1179_25.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_48.html> (referer: https://www.dushu.com/book/1179_47.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_58.html> (referer: https://www.dushu.com/book/1179_52.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:09:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://img.dushu.com/2011/12/17/03135337542391.jpg_142.jpg> (referer: https://www.dushu.com/book/1179_65.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 54, in parse_img
+    with open(fileName, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'dushu/imgs/上海恋人（16册/包）.jpg'
+2018-06-21 15:10:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1179_42.html> (referer: https://www.dushu.com/book/1179_41.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:10:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://img.dushu.com/2013/07/19/09191777626905.jpg_142.jpg> (referer: https://www.dushu.com/book/1179_42.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 54, in parse_img
+    with open(fileName, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'dushu/imgs/16/32.jpg'
+2018-06-21 15:23:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1222.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1158.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1161.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1163.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1214.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1176.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1175.html> (referer: https://www.dushu.com/)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1215_9.html> (referer: https://www.dushu.com/book/1215.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1215_11.html> (referer: https://www.dushu.com/book/1215.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1215_8.html> (referer: https://www.dushu.com/book/1215.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1215_10.html> (referer: https://www.dushu.com/book/1215.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1087_13.html> (referer: https://www.dushu.com/book/1087.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_7.html> (referer: https://www.dushu.com/book/1181.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1087_12.html> (referer: https://www.dushu.com/book/1087.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1611_12.html> (referer: https://www.dushu.com/book/1611.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_24.html> (referer: https://www.dushu.com/book/1181_19.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_25.html> (referer: https://www.dushu.com/book/1181_19.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_26.html> (referer: https://www.dushu.com/book/1181_21.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_28.html> (referer: https://www.dushu.com/book/1181_23.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:23:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_40.html> (referer: https://www.dushu.com/book/1181_35.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:24:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_37.html> (referer: https://www.dushu.com/book/1181_35.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:24:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_50.html> (referer: https://www.dushu.com/book/1181_45.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
+2018-06-21 15:24:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://img.dushu.com/2010/05/27/03215432844822.jpg_142.jpg> (referer: https://www.dushu.com/book/1181_50.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 54, in parse_img
+    with open(fileName, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'dushu/imgs/101/2章世界史.jpg'
+2018-06-21 15:24:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.dushu.com/book/1181_57.html> (referer: https://www.dushu.com/book/1181_51.html)
+Traceback (most recent call last):
+  File "d:\python\scrapy1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\scrapy1\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "D:\python\ScrapyProject\dushu\dushu\spiders\ds.py", line 40, in parse_item
+    callback=self.parse_img)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\python\scrapy1\lib\site-packages\scrapy\http\request\__init__.py", line 56, in _set_url
+    raise TypeError('Request url must be str or unicode, got %s:' % type(url).__name__)
+TypeError: Request url must be str or unicode, got NoneType:
